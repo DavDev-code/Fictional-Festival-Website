@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tickets - Graffiti Festival 2025</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Schedule.html">Schedule</a></li>
+            <li><a class="active" href="Tickets.html">Tickets</a></li>
+        </ul>
+    </nav>
+    <div class="tickets">
+        <form id="tickets_form" action="ticket_order.php" method="POST">
+            <label for="firstname">First Name*: </label>
+            <input type="text" id="firstname" name="firstname" required><br><br>
+            <label for="lastname">Last Name*: </label>
+            <input type="text" id="lastname" name="lastname" required><br><br>
+            <label for="mail">e-mail*: </label>
+            <input type="email" id="mail" name="mail" required><br><br>
+            <label for="pass">Ticket*: </label>
+            <select name="pass" id="pass" required>
+                <option value="sat" name="sat">Saturday Pass</option>
+                <option value="sun" name="sun">Sunday Pass</option>
+                <option value="wk" name="wk">Weekend Pass</option>
+            </select>
+            <br><br><label for="seat">Seat Number*: </label>
+            <input type="number" id="seat" name="seat" min="1" max="100" required><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>

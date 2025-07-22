@@ -1,0 +1,163 @@
+body{
+    font-family: "Rubik Glitch", serif;
+    font-size: x-large;
+    background-image: url(graffiti_background.jpg);
+    background-size: 103%;
+}
+nav{
+    background-color: #10108f;
+    padding: 10px 0;
+    
+}
+nav ul{
+    list-style-type: none;
+    text-align: center;
+}
+nav ul li{
+    display: inline;
+    margin: 0 100px;
+}
+nav ul li a{
+    color: #0da312;
+    text-decoration: none;
+}
+iframe{
+    max-width: 100%;
+    max-height: 100%;
+}
+.active{
+    background-color: #400863;
+    padding: 15px;
+    border-radius: 20px;
+}
+.header{
+    border-radius: 25px;
+    text-align: center;
+    background-color: white;
+    border: 5px solid purple;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+h1{
+    font-weight: normal;
+}
+h2{
+    font-weight: normal;
+    text-align: center;
+}
+.home_desc{
+    background-image: url(sc_bg.jpg);
+    background-size: 100%;
+    background-position: center;
+    text-align: center;
+    border: 5px solid purple;
+    text-align: center;
+    border-radius: 25px;
+    margin-top: 2%;
+    padding-bottom: 20px;
+}
+.graffiti_table{
+    background-image: url(sc_bg.jpg);
+    background-size: 100%;
+    background-position: center;
+    border: 5px solid purple;
+    border-radius: 25px;
+    margin-top: 2%;
+}
+#resize{
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+.graffiti_wall{
+    display: flex;
+    text-align: center;
+}
+.graffiti{
+    position: relative;
+    text-align: center;
+    border-radius: 25px;
+    padding: 20px;
+    width: 60%;
+    margin-left: 20%;
+}
+.graffiti2{
+    position: relative;
+    border-radius: 25px;
+    padding: 20px;
+    margin-left: 10px;
+}
+.graffiti3{
+    position: relative;
+    border-radius: 25px;
+    padding: 20px;
+    margin-left: 500px;
+}
+.artists{
+    display: flex;
+    margin-top: 5%;
+}
+.artist{
+    position: relative;
+    background-image: url(vert_img.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    margin-left: 2%;
+    right: 25px;
+    border-radius: 25px;
+    text-align: center;
+    background-color: white;
+    border: 5px solid purple;
+    padding: 20px;
+    width: 25%;
+    box-sizing: border-box;
+}
+.schedule{
+    background-image: url(sc_bg.jpg);
+    background-size: 100%;
+    background-position: center;
+    margin-top: 2%;
+    width: 100%;
+    border: 10px solid purple;
+    th{
+        font-weight: normal;
+        font-size: xx-large;
+        height: 70px;
+        text-align: center;
+    }
+    td{
+        height: 70px;
+    }
+}
+.tickets{
+    border: 5px solid purple;
+    border-radius: 25px;
+    font-size: 50px;
+    background: url(sc_bg.jpg);
+    background-size: 100%;
+    text-align: center;
+    padding: 50px;
+    margin: 2% 25% 0 25%;
+}
+input{
+    font-family: "Rubik Glitch", serif;
+    font-size: xx-large;
+    border: 2px solid purple;
+}
+select{
+    font-family: "Rubik Glitch", serif;
+    width: 280px;
+    font-size: xx-large;
+    border: 2px solid purple;
+}
+input[type=submit]{
+    background-color: #10108f;
+    color: #0da312;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
